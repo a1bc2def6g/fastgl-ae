@@ -6,5 +6,5 @@ techniques, we build the dedicated CUDA operators in the folder of `cuda_operato
 construct the Fused-Map sampler in `FusedMapSampler.py`. We implement our **Match-Reorder** 
 strategy in `MatchReorderServer.py`. `run_fig*/` provides the training scripts of our experiments.
 
-More information is detailed in AE appendix.
+More information is detailed in **AE appendix**.
 

@@ -9,25 +9,25 @@ os.environ["PYTHONWARNINGS"] = "ignore"
 para_gcn = [
         ('reddit'             ,  'gcn') ,   
         ('ogbn-products'      ,  'gcn') , 
-        # ('ogbn-papers100M'    ,  'gcn') ,
+        ('ogbn-papers100M'    ,  'gcn') ,
         ('mag'                ,  'gcn') ,
-        # ('igb-large'          ,  'gcn') ,   
+        ('igb-large'          ,  'gcn') ,   
 ]
 
 para_gin = [
         ('reddit'             ,  'gin') ,   
         ('ogbn-products'      ,  'gin') , 
-        # ('ogbn-papers100M'    ,  'gin') ,
+        ('ogbn-papers100M'    ,  'gin') ,
         ('mag'                ,  'gin') ,
-        # ('igb-large'          ,  'gin') ,   
+        ('igb-large'          ,  'gin') ,   
 ]
 
 para_gat = [
         ('reddit'             ,  'gat') ,   
         ('ogbn-products'      ,  'gat') , 
-        # ('ogbn-papers100M'    ,  'gat') ,
+        ('ogbn-papers100M'    ,  'gat') ,
         ('mag'                ,  'gat') ,
-        # ('igb-large'          ,  'gat') ,   
+        ('igb-large'          ,  'gat') ,   
 ]
 
 print('*********Running experiments on GCN begin*********\n')

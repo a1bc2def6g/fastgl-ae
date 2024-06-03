@@ -480,7 +480,7 @@ if __name__ == '__main__':
     parser.add_argument("--is-reorder",type=bool,default=False,)
     parser.add_argument("--is-presample",type=bool,default=True,)
     parser.add_argument("--dataset_name",type=str,default='reddit',)
-    parser.add_argument("--dataset_path",type=str,default='dataset',)
+    parser.add_argument("--dataset_path",type=str,default='../dataset',)
     parser.add_argument("--log_path",type=str,default='logs_fig9/',)
     args = parser.parse_args()
     setup_seed(12345)

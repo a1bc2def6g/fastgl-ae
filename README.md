@@ -47,14 +47,14 @@ we only provide the code and script to run experiments on DGL, and the experimen
 other frameworks can be obtained with minor changes to the scripts we provide. 
 
 ### Running main experiments on FastGL and DGL in Figure 9.
-  * Run `run\_fig9\_fastgl.sh`.
-  * Run `run\_fig9\_dgl.sh`.
+  * Run `run_fig9_fastgl.sh`.
+  * Run `run_fig9_dgl.sh`.
 ### Running the scalability experiments on FastGL in Figure 15.
 
-  * Run `run\_fig15a\_fastgl.sh`.
-  * Run `run\_fig15b\_fastgl.sh`.
-  * Run `run\_fig15c\_fastgl.sh`.
-  * Run `run\_fig15d\_fastgl.sh`.
+  * Run `run_fig15a_fastgl.sh`.
+  * Run `run_fig15b_fastgl.sh`.
+  * Run `run_fig15c_fastgl.sh`.
+  * Run `run_fig15d_fastgl.sh`.
 
 **Note: If a Permission Denied error raises, you can perform `chmod +x` on the 
 specific `.sh` file to run successfully.**

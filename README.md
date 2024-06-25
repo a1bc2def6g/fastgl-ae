@@ -33,7 +33,7 @@ The different versions of the software might have incompatible problems; please 
 ## Installation
 
 When the above dependencies are ready, we can install FastGL Pytorch Binding as follows:
-* Run `python cuda\_operators/setup.py install` to install the FastGL modules.
+* Run `python cuda_operators/setup.py install` to install the FastGL modules.
 
 ##  Evaluation and expected results
 

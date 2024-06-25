@@ -1,4 +1,4 @@
-# FastGL: An Integrative <u>F</u>ramework for <u>A</u>ccelerating <u>S</u>ampling-Based <u>T</u>raining of <u>G</u>NN at <u>L</u>arge-Scale on GPUs
+# FastGL: A GPU-Efficient Framework for Accelerating Sampling-Based GNN Training at Large Scale
 
 
 Dear readers, we have provided the source code to reproduce the results of our paper. The framework of FastGL is developed upon Pytorch. To implement the **Memory-Aware** and **Fused-Map**
@@ -64,5 +64,5 @@ The log file is named in the format of
 'model-dataset-model\_layer-hidden\_dim-batch\_size-device\_num` to 
 distinguish between different training setups.
 
-More information is detailed in **AE appendix** of our publised paper at ASPLOS'2024.
+More information is detailed in **AE appendix** of our publised paper "FastGL: A GPU-Efficient Framework for Accelerating Sampling-Based GNN Training at Large Scale" at ASPLOS'2024.
 
